@@ -19,7 +19,7 @@ import { MeshLineGeometry, MeshLineMaterial } from "meshline";
 import { useControls } from "leva";
 
 extend({ MeshLineGeometry, MeshLineMaterial });
-useGLTF.preload("public/devcard.glb");
+useGLTF.preload("/devcard.glb");
 useTexture.preload("/band.png");
 
 export default function App() {
